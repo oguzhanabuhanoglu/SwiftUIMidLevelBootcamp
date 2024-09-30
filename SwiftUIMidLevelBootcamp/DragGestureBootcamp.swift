@@ -12,7 +12,7 @@ struct DragGestureBootcamp: View {
     @State var offset: CGSize = .zero
     
     var body: some View {
-        // MARK: Real word example - like tinder
+        // MARK: Reel word example - like tinder
         ZStack {
             VStack {
                 Text("Offset: \(offset.width)")
@@ -74,7 +74,7 @@ struct DragGestureBootcamp: View {
         return percentageAsDouble * maxAngle
     }
     
-    
+   
 }
 
 #Preview {

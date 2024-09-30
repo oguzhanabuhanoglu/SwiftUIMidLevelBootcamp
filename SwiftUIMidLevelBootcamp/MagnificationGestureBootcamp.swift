@@ -13,7 +13,7 @@ struct MagnificationGestureBootcamp: View {
     @State var lastAmount: CGFloat = 0
     
     var body: some View {
-        // MARK: Real word example
+        // MARK: Reel word example
         VStack(spacing: 10) {
             HStack {
                 Circle()
